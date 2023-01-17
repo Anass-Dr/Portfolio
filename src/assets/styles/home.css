@@ -1,0 +1,130 @@
+#home_page header {
+  min-height: 100vh;
+  background: var(--primaryColor);
+  font-size: 18px;
+  padding-top: 100px;
+}
+
+#home_page header > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#home_page header p:first-child {
+  margin-bottom: 10px;
+}
+
+#home_page h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 90px;
+  line-height: 0.9em;
+  margin-bottom: 20px;
+}
+
+#header_profile {
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 50px;
+}
+
+#header_brush {
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+#header_picture {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 588px;
+  border-radius: 500px;
+  background: url('./portfolio_img.png') no-repeat;
+  background-position: 40% 100%;
+  background-color: #fdd747;
+  padding: 0 9px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+#skills_section {
+  padding: 100px 0;
+  background: #fbfcfc;
+}
+
+#skills_section > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#skills_section .skills_item {
+  padding: 45px 30px;
+  text-align: center;
+  background: #fff;
+  border-radius: 40px;
+  border: 2px solid #e6f0ee;
+}
+
+#skills_section .skill_title {
+  color: var(--darkColor);
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+#skills_section .skill_percent {
+  font-family: 'Staatliches', cursive;
+  color: var(--grayColor);
+  font-size: 24px;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+
+#projects_section {
+  text-align: center;
+}
+
+#projects_section-head {
+  font-family: 'Staatliches', cursive;
+  font-size: 35px;
+  color: var(--grayColor);
+  margin-bottom: 20px;
+}
+
+#projects_section-desc {
+  color: var(--secondaryColor);
+  line-height: 1.8;
+  margin-bottom: 70px;
+}
+
+#projects_section .project {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  aspect-ratio: 1/1;
+  background: no-repeat center;
+  background-size: cover;
+  border-radius: 30px;
+  padding: 35px;
+  margin-bottom: 40px;
+}
+
+#projects_section .project h4,
+#projects_section .project p {
+  background: #000;
+  padding: 10px 25px;
+  text-align: left;
+  border-radius: 7px;
+}
+
+#projects_section .project h4 {
+  width: max-content;
+  font-family: 'Staatliches', cursive;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+#projects_section .project p {
+  line-height: 1.5;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Staatliches&display=swap');
+
+:root {
+  /* font-family: 'Staatliches', cursive; */
+  font-family: 'Roboto', sans-serif;
+  --primaryColor: #096a61;
+  --secondaryColor: #365951;
+  --darkColor: #1e1e1e;
+  --grayColor: #192c27;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+  color: #fff;
+}
+
+.container {
+  padding: 0 20px;
+}
