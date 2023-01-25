@@ -5,6 +5,7 @@
   font-family: 'Roboto', sans-serif;
   --primaryColor: #096a61;
   --secondaryColor: #365951;
+  --globalColor: #fdd747;
   --darkColor: #1e1e1e;
   --grayColor: #192c27;
 }
@@ -14,6 +15,12 @@
   padding: 0;
   box-sizing: border-box;
   font: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  color: #fff;
 }
 
 a {
@@ -29,12 +36,46 @@ li {
   list-style: none;
 }
 
-html,
-body {
-  height: 100%;
-  color: #fff;
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 35px;
 }
 
 .container {
-  padding: 0 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  h1 {
+    font-size: 70px;
+  }
+  .container {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 90vw;
+    margin: auto;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1400px) {
 }
